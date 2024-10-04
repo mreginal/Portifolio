@@ -1,0 +1,13 @@
+/* Barra de rolagem */
+::-webkit-scrollbar {
+    width: 2.5px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+border: 3px solid var(--light-purple);
+}
+
+::-webkit-scrollbar-thumb:hover {
+border: 3px solid var(--dark-purple);
+}

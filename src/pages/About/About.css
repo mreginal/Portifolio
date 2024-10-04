@@ -1,0 +1,107 @@
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 90vh;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+}
+
+.info, .attachment{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    width: 40vw;
+    gap: 10px;
+    line-height: 20px;
+}
+
+.info img{
+    height: 150px;
+}
+
+.info p{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.info span{
+    color: rgb(142, 0, 163);
+    font-weight: bold;
+}
+
+.attachment img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.attachment button{
+    margin-top: 20px;
+    background: var(--dark-purple);
+    color: var(--white);
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.attachment button:hover{
+    background: var(--color-bg-hover);
+}
+
+.attachment a{
+    text-decoration: none;
+}
+
+.skills{
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills h1{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.belt {
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+
+.belt img{
+    height: 50px;
+}
+  
+.belt-items {
+display: flex;
+width: max-content;
+animation: slide 10s linear infinite;
+}
+
+.belt-item {
+margin: 0 10px;
+border-radius: 5px;
+}
+
+@keyframes slide {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-50%);
+}
+}

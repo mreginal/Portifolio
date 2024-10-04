@@ -1,0 +1,15 @@
+.large-logo{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+.large-logo img{
+    height: 150px;
+}
+.large-logo h1{
+    font-weight: 200;
+    color: var(--white);
+}

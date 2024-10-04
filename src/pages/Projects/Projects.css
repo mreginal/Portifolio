@@ -1,0 +1,37 @@
+.projects{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.projects button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 2px solid var(--light-purple);
+    border-radius: 15px;
+    width: 30vw;
+    height: 75vh;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.projects button:hover{
+    font-size: 12px
+}
+
+.projects button h1{
+    font-weight: 300;
+}
+
+.icon-p{
+    opacity: 70%;
+    font-size: 150px;
+}

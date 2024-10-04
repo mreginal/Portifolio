@@ -1,0 +1,39 @@
+header{
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99999;
+}
+
+.logo img{
+  height: 80px;
+  margin-left: 10px;
+}
+
+nav{
+  flex-grow: 1;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end; 
+  gap: 5vw;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-item.active {
+  border-bottom: 1px solid var(--light-purple);
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid var(--light-purple);
+}
