@@ -24,7 +24,8 @@
 }
 
 .i label{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    padding-left: 10px;
 }
 
 .info-contact a{

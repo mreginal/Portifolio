@@ -1,7 +1,7 @@
 import './Contact.css'
 import React from 'react'
 import Header from '../../components/Header/Header'
-import { FaLinkedin, FaInstagramSquare, FaEnvelope } from "react-icons/fa"
+import { FaLinkedin, FaInstagramSquare, FaEnvelope, FaGithub} from "react-icons/fa"
 
 const Contact = () => {
   return (
@@ -15,17 +15,24 @@ const Contact = () => {
           <h1>Entre em contato comigo:</h1>
           <div className="info-contact">
             <div className='i'>
+              <FaInstagramSquare />
               <label>
-                <FaInstagramSquare />
                 Instagram:
               </label>
               <a href='https://www.instagram.com/find.regina/' target='_blank'> @find.regina</a>
             </div>
             <div className='i'>
+              <FaLinkedin />
               <label>
-                <FaLinkedin />
                 LinkedIn:
                 <a href="https://www.linkedin.com/in/regina-lucena-b6b9a1216/" target='_blank'> Regina Lucena</a>
+              </label>
+            </div>
+            <div className='i'>
+              <FaGithub />
+              <label>
+                GitHub:
+                <a href="https://github.com/mreginal" target='_blank'> @mreginal</a>
               </label>
             </div>
             <div className='i'>
