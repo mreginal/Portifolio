@@ -1,0 +1,16 @@
+#button-redirect{
+    margin-top: 20px;
+    background: var(--dark-purple);
+    color: var(--white);
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#button-redirect:hover{
+    background: var(--color-bg-hover);
+}

@@ -35,3 +35,53 @@
     opacity: 70%;
     font-size: 150px;
 }
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card{
+    margin: 30px;
+    width: 80vw;
+    padding: 50px;
+    border: 2px solid var(--light-purple);
+    border-radius: 10px;
+}
+
+.design-card{
+    margin: 30px;
+    width: 700px;
+    padding: 50px;
+    border: 2px solid var(--light-purple);
+    border-radius: 10px;
+}
+
+.p-infos{
+    display: flex;
+    margin-top: 20px;
+}
+
+.p-infos img{
+    height: 300px;
+}
+
+.p-infos p{
+    text-align: justify;
+}
+
+.p-infos-right{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#buttons{
+    display: flex;
+    gap: 16px;
+}
